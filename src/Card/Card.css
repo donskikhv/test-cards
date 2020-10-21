@@ -1,0 +1,35 @@
+.card {
+  width: 120px;
+  height: 192px;
+  padding: 0 0.6rem;
+  background: #FAFAFA;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  margin: 0.6rem 0;
+}
+
+.closed {
+  background: url('../images/card-back.png');
+}
+
+.hearts, .diamonds {
+  color: #DA3131;
+}
+
+.clubs, .spades {
+  color: rgba(0, 0, 0, 0.85);
+}
